@@ -11,6 +11,17 @@ body {
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
+  animation: slideIn 1s forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
 }
 
 .name {
